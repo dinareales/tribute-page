@@ -50,17 +50,31 @@ footer a {
 a {
     color: #F80002;
 }
-#image {
+#img-div{
+    padding: 0;
+    margin: auto;
     width: 200px;
     height: 230px;
+}
+
+#img-caption{
+    display: none;
+}
+
+#image {
+    display: block;
+    width: auto;
+    height: auto;
     border-radius: 50%;
     border: 5px solid white;
 }
-#img-div, .profile-buttons, #img-caption, .img-tweet {
+
+.profile-buttons, #img-caption .img-tweet {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 h1 {
     color: #DB3B61;
     font-size: 28px;
@@ -111,12 +125,6 @@ img.small {
     }
 }
 
-article {
-    padding: 50px 15px;
-}
-article > *:first-child {
-    margin-top: 0;
-}
 header .right {
     float: right;
     margin: 0 10px 15px;
@@ -200,6 +208,7 @@ h6 {
     body.works_on_smartphone main {
         display: block;
     }
+
 }
 
 /* image  */
